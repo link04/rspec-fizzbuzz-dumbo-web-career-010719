@@ -4,10 +4,9 @@
 def fizzbuzz(num)
    if num%3 == 0 && num%5 != 0
       result = "Fizz"
-    else if(num%5 == 0 && num%3 != 0)
-      result = "Fizz"
-      console.log("Buzz")
-    else if(num%5 == 0 && num%3 == 0)
+    elseif(num%5 == 0 && num%3 != 0)
+      result = "Buzz"
+    elseif(num%5 == 0 && num%3 == 0)
       result = "Fizz"
     else
       result = "nil"
