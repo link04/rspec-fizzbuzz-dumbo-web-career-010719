@@ -10,4 +10,5 @@ def fizzbuzz(num)
     result = "Fizz"
   else
     result = "nil"
+  end
 end
